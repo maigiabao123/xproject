@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đánh Giá</title>
+    <link rel="stylesheet" href="/css/danhgia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="nav">
+        <a class="logo" href="menu.html"><img src="/image/logo.png"></a>
+        <ul class="menu">
+            <li><a href="menu.html">Trang Chủ</a></li>
+            <li class="linkmenu">
+                <a href="">Dịch Vụ</a>
+                <ul class="linkmenudown">
+                    <li><a href="trentroi.html">Trên Trời</a></li>
+                    <li><a href="matdat.html">Mặt Đất</a></li>
+                    <li><a href="duoinuoc.html">Dưới Nước</a></li>
+                </ul>
+            </li>
+            <li><a href="danhgia.html">Đánh Giá</a></li>
+            <form><input class="timkiem" type="text" placeholder="Tìm kiếm"></form>
+            <li class="linkmenu1">
+                <a href=""><ion-icon name="person-circle-outline"></ion-icon></a>
+                <ul class="linkmenudown1">
+                    <li><a href="/html/dangnhap.html">Đăng Nhập</a></li>
+                    <li><a href="/html/dangky.html">Đăng Ký</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <br>
+    <!-- <div class="container">
+        <form>
+            <label class="email" for="lname">Email</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your email..">
+
+
+            <label class="email" for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <button id="button" class="button">Submit</button>
+        </form>
+    </div> -->
+
+    <div class="post_container">
+        <input class="name" type="text" placeholder="Username" id="username" />
+        <textarea class="enter" name="" id="comment" cols="30" rows="10" placeholder="Enter comment"></textarea>
+
+        <button id="post_comment">Submit</button>
+
+        <div class="list_post_comment">
+            <!-- each item -->
+            <div class="item_comment">
+                <!-- img_container -->
+                
+                <!-- content_container -->
+                <div class="content_container">
+                    <p class="content_description"></p>
+
+                    <div class="content_info_container">
+                        <div class="date_userpost">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="rating-box">
+        <header>How was your experience?</header>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+      </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/js/danhgia.js"></script>
+</body>
+
+</html>

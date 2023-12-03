@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.formbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 400px;
+    height: 530px;
+    background-color: rgba(0, 255, 255, 0.404);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+    color: aliceblue;
+}
+.input{
+    position: relative;
+    margin: 30px 0;
+    width:310px;
+    border-bottom: 2px solid aqua;
+}
+.input label{
+    position: absolute;
+    top: 15%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: aliceblue;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    font-size: 1em;
+    pointer-events: none;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
+input:focus~label,
+input:focus~:valid{
+    top: -5px;
+}
+.input input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color:aqua
+}
+.input ion-icon{
+    position: absolute;
+    right: 8px;
+    color: aliceblue;
+}
+.forget{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.forget label input{
+    margin-right: 3px;
+
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 600;
+    color: rgb(4, 0, 255);
+}
+.donthaveacc{
+    font-size: .9em;
+    color: aliceblue;
+    margin:25px 0 10px;
+    text-align: center;
+}
+.donthaveacc a{
+    text-decoration: none;
+    color:aqua;
+    font-weight:600;
+}
+.donthaveacc a:hover{
+    text-decoration: underline;
+}
+.nav{
+    background-color: black;
+    display: flex;
+    height:60px;
+    line-height: 60px;
+    justify-content: space-between;
+    border-bottom: 1px solid aqua;
+}
+
+.menu{
+    display:flex;
+}
+.logo{
+    font-size: 30px;
+    padding-left: 30px;
+    color: aliceblue;
+}
+.menu li{
+    padding-right: 30px;
+    font-size:20px;
+}
+.menu li a:hover{
+    color:blue;
+}
+.menu li a{
+    color:aliceblue;
+    transition: color.4s ease-out;
+    -webkit-transition: color.4s ease-out;
+    -moz-transition: color.4s ease-out;
+    -ms-transition: color.4s ease-out;
+    -o-transition: color.4s ease-out;
+}
+.linkmenudown{
+    height:180px;
+    width:90px;
+    background-color: black;
+    margin:0px auto;
+    position:absolute;
+    right: 384px;
+    display: none;
+}
+.linkmenudown li{
+    text-align: center;
+    padding:0px;
+    font-size: 16px;
+}
+.linkmenudown li a:hover{
+    color:rgb(0, 166, 255);
+    transition: color.4s ease-out;
+    -webkit-transition: color.4s ease-out;
+    -moz-transition: color.4s ease-out;
+    -ms-transition: color.4s ease-out;
+    -o-transition: color.4s ease-out;
+
+}
+.menu .linkmenu:hover .linkmenudown{
+    display: block;
+}
+.linkmenudown1{
+    height:120px;
+    width:120px;
+    background-color: black;
+    margin:0px auto;
+    position:absolute;
+    right: 1px;
+    display: none;
+    color: white;
+}
+.linkmenudown1 li{
+    text-align: center;
+    padding:0px;
+    font-size: 17px;
+}
+.linkmenudown1 li a:hover{
+    color:rgb(0, 166, 255);
+    transition: color.4s ease-out;
+    -webkit-transition: color.4s ease-out;
+    -moz-transition: color.4s ease-out;
+    -ms-transition: color.4s ease-out;
+    -o-transition: color.4s ease-out;
+
+}
+.menu .linkmenu1:hover .linkmenudown1{
+    display: block;
+}
+.linkmenu1{
+    padding-left: 20px;
+}
+.logo img{
+    height: 60px;
+}
+.timkiem{
+    border: 1px solid aqua;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: white;
+    height: 28px;
+
+}
+.logo img{
+    height: 60px;
+}

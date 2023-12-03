@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  body{
+    font-family: Helvetica, sans-serif;
+  }
+.logo img{
+    height:60px;
+}
+.body {
+    height: 100%;
+    overflow: hidden;
+    background: rgb(39, 39, 124);
+    font-family: Helvetica, sans-serif;
+    color: rgb(211, 211, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .body2{
+    height: 100%;
+    overflow: hidden;
+    background: rgb(39, 39, 124);
+    font-family: Helvetica, sans-serif;
+    color: rgb(211, 211, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container1 {
+    width: 350px;
+    height: 500px;
+    perspective: 800px;
+    margin: 60px;
+  }
+  
+  .container1:hover > .card {
+    cursor: pointer;
+    transform: rotateY(180deg) rotateZ(180deg);
+  }
+  
+  .card {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+  }
+  
+  .front,
+  .back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  .front1,
+  .back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  .front2,
+  .back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  .front3,
+  .back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+  }
+
+  .front4,
+  .back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+  }
+
+  .front5,
+  .back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+  }
+
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+  
+.front {
+    background-image: url(/image/./pexels-pia-b-3113226.jpg)
+  }
+.front1 {
+    background-image: url(/image/1-1401334421.jpg);
+  }
+.front2 {
+    background-image: url(/image/kayaking-la-gi\(3\).jpg);
+  }
+.front3{
+  background-image: url(/image/pexels-keegan-checks-18636559\ \(1\).jpg);
+}
+.front5{
+  background-image: url(/image/14877156642_6da5405ea8_e.jpg);
+}
+.front4{
+  background-image: url(/image/pexels-thirdman-5537770\ \(1\).jpg);
+  background-size: cover;
+}
+
+  
+  .back {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg) rotateZ(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+.nav{
+    background-color: black;
+    display: flex;
+    height:60px;
+    line-height: 60px;
+    justify-content: space-between;
+    border-bottom: 1px solid aqua;
+}
+
+.menu{
+    display:flex;
+}
+.logo{
+    height: 30px;
+    padding-left: 30px;
+    color: aliceblue;
+}
+.menu li{
+    padding-right: 30px;
+    font-size:20px;
+}
+.menu li a:hover{
+    color:blue
+}
+.menu li a{
+    color:aliceblue;
+    transition: color.4s ease-out;
+    -webkit-transition: color.4s ease-out;
+    -moz-transition: color.4s ease-out;
+    -ms-transition: color.4s ease-out;
+    -o-transition: color.4s ease-out;
+}
+.linkmenudown{
+    height:180px;
+    width:90px;
+    background-color: black;
+    margin:0px auto;
+    position:absolute;
+    right: 384px;
+    display: none;
+}
+.linkmenudown li{
+    text-align: center;
+    padding:0px;
+    font-size: 16px;
+}
+.linkmenudown li a:hover{
+    color:rgb(0, 166, 255);
+    transition: color.4s ease-out;
+    -webkit-transition: color.4s ease-out;
+    -moz-transition: color.4s ease-out;
+    -ms-transition: color.4s ease-out;
+    -o-transition: color.4s ease-out;
+
+}
+.menu .linkmenu:hover .linkmenudown{
+    display: block;
+}
+.linkmenudown1{
+    height:120px;
+    width:120px;
+    background-color: black;
+    margin:0px auto;
+    position:absolute;
+    right: 1px;
+    display: none;
+    color: white;
+}
+.linkmenudown1 li{
+    text-align: center;
+    padding:0px;
+    font-size: 17px;
+}
+.linkmenudown1 li a:hover{
+    color:rgb(0, 166, 255);
+    transition: color.4s ease-out;
+    -webkit-transition: color.4s ease-out;
+    -moz-transition: color.4s ease-out;
+    -ms-transition: color.4s ease-out;
+    -o-transition: color.4s ease-out;
+
+}
+.menu .linkmenu1:hover .linkmenudown1{
+    display: block;
+}
+.linkmenu1{
+    padding-left: 20px;
+}
+.duoinuoc{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    height: 120px;
+}
+.footer-col{
+  width:25%;
+  padding:0 15px;
+  
+}
+.footer-col h4{
+  font-size: 20px;
+  color: aliceblue;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 300;
+  position: relative;
+  
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e64;
+  height:2px;
+  width: 50px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.footer-col ul li:not(:last-child){
+margin-bottom: 10px;
+}
+.footer-col ul li a{
+font-size: 16px;
+text-transform: capitalize;
+color: #ffffff;
+text-decoration: none;
+font-weight: 300;
+color: #bbbbbb;
+display: block;
+transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+color: #ffffff;
+padding-left: 8px;
+}
+.logo img{
+  height: 60px;
+  width: 60px;
+}
+.fb{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 20px;
+}
+.contact{
+  display: flex;
+  justify-content: center;
+  margin-right: 450px;
+
+}
+.footer{
+  
+    background-color: rgba(106, 106, 106, 0.711);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+
+}
+.container{
+  max-width: 100%;
+  margin:auto;
+  
+}
+.ul{
+  list-style: none;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.timkiem{
+  height: 28px;
+  border-color: aqua;
+  border-radius: 5px;
+}

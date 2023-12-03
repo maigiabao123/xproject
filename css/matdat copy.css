@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: 'Poppins', sans-serif; 
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #d6d78a;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin-right: 300px;
+}
+
+.card .card_landing {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 10px #000;
+    background: linear-gradient(transparent 80%, #000), var(--i);
+    background-position: center;
+    background-size: cover;
+    z-index: 100;
+}
+
+.card .card_landing h6 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.card .card_info {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    padding: 15px;
+    background: #fff;
+    z-index: 90;
+    box-shadow: 0 5px 10px #000;
+    transition: .5s;
+}
+
+.card:hover .card_info {
+    left: 90%;
+}
+
+.card_info .head {
+    padding: 5px 0;
+    border-bottom: solid 1px #bc8811;
+}
+
+.card_info .head .title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #bc8811;
+}
+
+.card_info .head .description {
+    display: flex;
+    gap: 10px;
+}
+
+.card_info .head .description .item {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.card_info .head .description .item i {
+    color: #bc8811;
+    font-size: 15px;
+}
+
+.card_info .head .description .item p {
+    font-size: 13px;
+}
+
+.card_info .content {
+    margin-top: 15px;
+}
+
+.card_info .content .list {
+    padding: 10px 15px;
+}
+
+.card_info .content .list li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.card_info .action .btn {
+    padding: 10px;
+    color: #fff;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    background: #bc8811;
+    display: block;
+    margin-top: 10px;
+}
+.nav{
+    background-color: black;
+    display: flex;
+    height:60px;
+    line-height: 60px;
+    justify-content: space-between;
+    border-bottom: 1px solid aqua;
+}
+
+.menu{
+    display:flex;
+}
+.logo{
+    font-size: 30px;
+    padding-left: 30px;
+    color: aliceblue;
+}
+.menu li{
+    padding-right: 30px;
+    font-size:20px;
+}
+.menu li a:hover{
+    color:blue
+}
+.menu li a{
+    color:aliceblue;
+    transition: color.4s ease-out;
+    -webkit-transition: color.4s ease-out;
+    -moz-transition: color.4s ease-out;
+    -ms-transition: color.4s ease-out;
+    -o-transition: color.4s ease-out;
+}
+.linkmenudown{
+    height:180px;
+    width:90px;
+    background-color: black;
+    margin:0px auto;
+    position:absolute;
+    right: 463pxpx;
+    display: none;
+}
+.linkmenudown li{
+    text-align: center;
+    padding:0px;
+    font-size: 16px;
+}
+.linkmenudown li a:hover{
+    color:rgb(0, 166, 255);
+    transition: color.4s ease-out;
+    -webkit-transition: color.4s ease-out;
+    -moz-transition: color.4s ease-out;
+    -ms-transition: color.4s ease-out;
+    -o-transition: color.4s ease-out;
+
+}
+.menu .linkmenu:hover .linkmenudown{
+    display: block;
+}
+.linkmenudown1{
+    height:120px;
+    width:120px;
+    background-color: black;
+    margin:0px auto;
+    position:absolute;
+    right: 1px;
+    display: none;
+    color: white;
+}
+.linkmenudown1 li{
+    text-align: center;
+    padding:0px;
+    font-size: 17px;
+}
+.linkmenudown1 li a:hover{
+    color:rgb(0, 166, 255);
+    transition: color.4s ease-out;
+    -webkit-transition: color.4s ease-out;
+    -moz-transition: color.4s ease-out;
+    -ms-transition: color.4s ease-out;
+    -o-transition: color.4s ease-out;
+
+}
+.menu .linkmenu1:hover .linkmenudown1{
+    display: block;
+}
+.linkmenu1{
+    padding-left: 20px;
+}
+.logo img{
+    height: 60px;
+}
+.timkiem{
+    border: 1px solid aqua;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: none;
+    height: 28px;
+    background: none;
+}
+.matdat{
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #d6d78a;
+    text-align: center;
+}

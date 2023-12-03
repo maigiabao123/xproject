@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Đăng Ký</title>
+        <link rel="stylesheet" href="/css/dangky.css">
+        
+    </head>
+    <body>
+        <div class="nav">
+            <a class="logo" href="/html/menu.html"><img src="/image/logo.png"></a>
+            <ul class="menu">
+                <li><a href="/html/menu.html">Trang Chủ</a></li>
+                <li class="linkmenu">
+                    <a href="">Dịch Vụ</a>
+                    <ul class="linkmenudown">
+                        <li><a href="/html/trentroi.html">Trên Trời</a></li>
+                        <li><a href="/html/matdat.html">Mặt Đất</a></li>
+                        <li><a href="/html/duoinuoc.html">Dưới Nước</a></li>
+                    </ul>
+                </li>
+                <li><a href="/html/danhgia.html">Đánh Giá</a></li>
+                <form><input class="timkiem" type="text" placeholder="Tìm kiếm"></form>
+                <li class="linkmenu1">
+                    <a href=""><ion-icon name="person-circle-outline"></ion-icon></a>
+                    <ul class="linkmenudown1">
+                        <li><a href="/html/dangnhap.html">Đăng Nhập</a></li>
+                        <li><a href="/html/dangky.html">Đăng Ký</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <section>
+            <div class="formbox">
+                <div class="formvalue">
+                    <form>
+                        <h1>Sign Up</h1>
+                        <div class="input">
+                            <ion-icon name="person-outline"></ion-icon>
+                            <input id="input_username" type="text" required>
+                            <label>Name</label>
+                        </div>
+                        <div class="input">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <input id="input_email" type="email" required>
+                            <label>Email</label>
+                        </div>
+                        <div class="input">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                            <input id="input_password" type="password" required>
+                            <label>Password</label>
+                        </div>
+                        <div class="input">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                            <input id="confirm_password" type="password" required>
+                            <label>Confirm Password</label>
+                        </div>
+                        <div class="forget">
+                            <label><input type="checkbox" value="remeber-me">I'm agreeing to the Terms of Use</label>
+                        </div>
+                        <button>Sign Up</button>
+                        <div class="donthaveacc">
+                            <span>Already have an account</span>
+                            <a href="/html/dangnhap.html">Sign in</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/js/dangky.js"></script>
+    </body>
+</html>
